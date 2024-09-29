@@ -6,7 +6,7 @@ import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/web-mock-server',
+  cacheDir: '../../node_modules/.vite/apps/ui',
 
   server: {
     port: 4200,
@@ -26,7 +26,7 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: '../../dist/apps/web-mock-server',
+    outDir: '../../dist/apps/ui',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
