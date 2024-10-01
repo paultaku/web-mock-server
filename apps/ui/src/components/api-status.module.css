@@ -1,0 +1,5 @@
+.api-selection {
+  input[type='radio'] + span {
+    margin-left: 0.5rem;
+  }
+}

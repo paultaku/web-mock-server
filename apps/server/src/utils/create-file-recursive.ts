@@ -1,5 +1,5 @@
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from 'fs';
+import * as path from 'path';
 
 /**
  * Recursively creates a file with the specified content at the given path.
@@ -11,7 +11,7 @@ export function createFileRecursive(
   filePath: string,
   content: string
 ): Promise<void> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const dirPath = path.dirname(filePath);
 
     // Ensure the directory exists

@@ -1,3 +1,10 @@
 {
-    "delay": 0
+  "files": [
+    "success.json",
+    "error.json",
+    "empty.json"
+  ],
+  "current": "success.json",
+  "status": 200,
+  "delay": 0
 }

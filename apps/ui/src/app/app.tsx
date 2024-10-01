@@ -1,9 +1,12 @@
-import NxWelcome from './nx-welcome';
+import AddNewApi from '../components/add-new-api';
+import ListApi from '../components/list-api';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="web-mock-server" />
+      <AddNewApi />
+      <hr />
+      <ListApi />
     </div>
   );
 }
